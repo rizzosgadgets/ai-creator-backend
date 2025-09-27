@@ -36,6 +36,25 @@ An AI-powered backend service for creating and managing blog posts. This service
 
 3. The server runs on `http://localhost:3000`
 
+4. Run the demo script to see the complete workflow:
+   ```bash
+   ./demo.sh
+   ```
+
+## Quick Demo
+
+To quickly test the "post my first blog" functionality, use the included demo script:
+
+```bash
+# Make sure server is running first
+npm start
+
+# In another terminal, run the demo
+./demo.sh
+```
+
+This will demonstrate the complete workflow: create → list → publish → view your first blog post!
+
 ## Usage Examples
 
 ### Create Your First Blog Post
